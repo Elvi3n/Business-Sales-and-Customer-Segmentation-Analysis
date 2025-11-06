@@ -11,7 +11,16 @@ Investigate the sales performance of a Sport store by generating key business me
   - Customer/product segmentation and performance analysis
 
   - Preparing data for reporting and dashboards
-    
+
+## Insights Summary
+
+- **Product Diversification** - The business shows heavy reliance on bike-related items, which presents both strengths and risks. If the biking market slows down or becomes saturated, revenue growth will be directly impacted
+
+	- **Recommendation:** The business should consider exploring complementary categories that already align with existing customer interests, such as clothings and accessories. This approach will reduce reliance on one category while building resilience and long-term growth potential.
+  
+- **New Customers Dominated** - Over 60% of customers spent less than $5,000 and have been with the business for less than 12 months. While it shows success in attracting new customers, it also highlights a lack of long term retention and customer lifetime value. Causing the risks a revolving door effect, where customer purchase once and fail to retrun.
+
+	- **Recommendation:** Introduce loyalty programs to incentivize repeat purchases or implement personalized marketing campaigns that target customers based on purchase history.
 
 ## Database Structure
 
@@ -24,7 +33,7 @@ The dataset consisted of three tables, including information of products, sales,
 ```
 SQL-Sales-Data-Analytics/
 ├── datasets/            
-├── scripts/             # Scripts for exploring schema, tables, and columns
+├── scripts/            
 ├── results/
 ├── LICENSE
 └── README.md            
@@ -67,17 +76,6 @@ GROUP BY cost_range
 ORDER BY product_count DESC;
 ```
 <img width="198" height="110" alt="image" src="https://github.com/user-attachments/assets/7d40b23d-e00c-4e6d-94bf-133c3eb23ead" />
-
-
-## Insights Summary
-
-- **Product Diversification** - The business shows heavy reliance on bike-related items, which presents both strengths and risks. If the biking market slows down or becomes saturated, revenue growth will be directly impacted
-
-	- **Recommendation:** The business should consider exploring complementary categories that already align with existing customer interests, such as clothings and accessories. This approach will reduce reliance on one category while building resilience and long-term growth potential.
-  
-- **New Customers Dominated** - Over 60% of customers spent less than $5,000 and have been with the business for less than 12 months. While it shows success in attracting new customers, it also highlights a lack of long term retention and customer lifetime value. Causing the risks a revolving door effect, where customer purchase once and fail to retrun.
-
-	- **Recommendation:** Introduce loyalty programs to incentivize repeat purchases or implement personalized marketing campaigns that target customers based on purchase history.
 
 ## License
 
