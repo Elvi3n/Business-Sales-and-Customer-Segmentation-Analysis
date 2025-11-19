@@ -1,4 +1,4 @@
-# SQL-Sales-Data-Analytics
+# SQL Business Sales & Customer Segmentation Analysis
 
 ## Project Goal
 
